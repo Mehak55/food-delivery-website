@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foodie Delight 🍔</title>
+<link rel="stylesheet" href="Food.css">
+</head>
+<body>
+  <header>
+    <h1>🍕 Foodie Delight</h1>
+    <div class="restaurant-select">
+      <label for="restaurant">Choose a restaurant: </label>
+      <select id="restaurant" onchange="changeRestaurant()">
+        <option value="0">All Restaurants</option>
+      </select>
+    </div>
+    <div class="cart-icon" onclick="toggleCart()">🛒 <span id="cart-count">0</span></div>
+  </header>
+
+  <section class="filters">
+    <input type="text" id="search" placeholder="Search food..." oninput="searchFood()">
+    <div id="category-buttons"></div>
+  </section>
+
+  <section class="menu-section" id="menu-section"></section>
+
+  <div class="cart-slide" id="cart-slide">
+    <h2>🛒 Your Cart</h2>
+    <div id="cart-items"></div>
+    <button id="checkout-btn">Checkout</button>
+  </div>
+
+  <script src="Food.js"></script>
+</body>
+</html>
