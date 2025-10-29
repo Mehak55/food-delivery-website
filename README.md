@@ -17,5 +17,5 @@ A responsive food delivery website featuring restaurants, menus, and food catego
 - JavaScript  
 
 ## 📬 Contact
-Created by **Mehak Zeba**  
+Created by **Mehak Jeba**  
 Connect via [LinkedIn](https://www.linkedin.com/in/bhimavarapujebamehak/)
